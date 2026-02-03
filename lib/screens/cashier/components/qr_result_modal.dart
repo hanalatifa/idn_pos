@@ -38,7 +38,7 @@ class _QrResultModalState extends State<QrResultModal> {
   }
 
 
-  Widget build(BuildContext context) {
+  @override Widget build(BuildContext context) {
     // menentukan warna dan teks berdasarkan status
     Color statusColor;
     Color statusBgColor;

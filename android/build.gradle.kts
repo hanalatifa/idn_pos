@@ -19,6 +19,6 @@ subprojects {
     project.evaluationDependsOn(":app")
 }
 
-tasks.register<Delete>("clean") {
-    delete(rootProject.layout.buildDirectory)
-}
+    tasks.register<Wrapper>("wrapper") {
+        gradleVersion = "4.1"
+    }
